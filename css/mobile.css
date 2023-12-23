@@ -1,37 +1,5 @@
 @media screen and (max-width: 425px) {
 
-	/* Добавим стили анимации снежинки */
-.snowflake {
-    font-size: 1px; /* Начальный размер снежинки */
-    color: #ffffff; /* Цвет снежинки (белый) */
-    animation: snowfall 3s linear infinite;
-}
-
-@keyframes snowfall {
-    0% {
-        opacity: 1;
-        transform: translateY(0) scale(1);
-    }
-    100% {
-        opacity: 0;
-        transform: translateY(100vh) scale(10); /* Измените на нужный конечный размер */
-    }
-}
-
-/* Ваш остальной код остается без изменений */
-.wrapper {
-    width: 100%;
-    height: 2160px;
-    margin: 0 auto;
-    background: #B22222;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-size: 16px;
-}
-
-/* Остальные стили остаются неизменными */
-/* ... */
 
     .wrapper{
 		width: 100%;
